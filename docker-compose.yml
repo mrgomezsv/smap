@@ -1,19 +1,27 @@
-version: '3'
+version: '3'  # Versión de Docker Compose que se utiliza en este archivo.
 
-services:
-  php:
-    build: .
-    ports:
-      - "8080:80"
-    volumes:
-      - ./app:/var/www/html
-    depends_on:
-      - db
+services:  # Define los servicios que se ejecutarán en contenedores Docker.
 
-  db:
-    image: mysql:latest
-    ports:
-      - "3306:3306"
-    environment:
-      MYSQL_ROOT_PASSWORD: example
-      MYSQL_DATABASE: sistema_administracion
+  php:  # Nombre del servicio PHP.
+
+    build: .  # Construye la imagen del contenedor utilizando el Dockerfile en el directorio actual.
+
+    ports:  # Mapea los puertos del contenedor al host.
+      - "8080:80"  # Mapea el puerto 80 del contenedor al puerto 8080 del host.
+
+    volumes:  # Monta los volúmenes del host en el contenedor.
+      - ./app:/var/www/html  # Monta el directorio 'app' del host en el directorio '/var/www/html' del contenedor.
+
+    depends_on:  # Define las dependencias de este servicio.
+      - db  # Este servicio depende del servicio 'db' para asegurar que la base de datos esté disponible antes de iniciar el servicio PHP.
+
+  db:  # Nombre del servicio de base de datos MySQL.
+
+    image: mysql:latest  # Utiliza la imagen oficial de MySQL con la etiqueta 'latest'.
+
+    ports:  # Mapea los puertos del contenedor al host.
+      - "3306:3306"  # Mapea el puerto 3306 del contenedor al puerto 3306 del host.
+
+    environment:  # Configura las variables de entorno para el contenedor.
+      MYSQL_ROOT_PASSWORD: example  # Establece la contraseña de root de MySQL.
+      MYSQL_DATABASE: system_administration_smap  # Crea una base de datos llamada 'system_administration_smap'.
