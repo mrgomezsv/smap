@@ -14,13 +14,11 @@ if (!isset($_SESSION["username"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <!-- Agrega aquí tus estilos CSS -->
     <link rel="stylesheet" href="./css/style_dashboard.css">
 </head>
 <body>
     <header>
         <!-- <h1>Bienvenido <?php echo $_SESSION["username"]; ?></h1> -->
-        <!-- Agrega aquí tu barra de navegación o menú -->
     </header>
     
     <body>
@@ -81,8 +79,8 @@ if (!isset($_SESSION["username"])) {
                     </div>
                     <div class="dropdown-menu" id="dropdownMenu">
                         <ul>
-                            <!-- <li><a href="#">Perfil</a></li>
-                            <li><a href="#">Cerrar Sesión</a></li> -->
+                            <li><a href="#">Perfil</a></li>
+                            <li><a href="#" id="logout">Cerrar Sesión</a></li>
                         </ul>
                     </div>
                 </div>
@@ -94,10 +92,11 @@ if (!isset($_SESSION["username"])) {
             </div>
         </div>
         <script src="./js/scripts.js"></script>
+        <script src="./js/dashboard.js"></script>
     </body>
 
     <footer>
-        <!-- Agrega aquí el pie de página -->
+        <!-- Pie de página -->
     </footer>
 </body>
 </html>
