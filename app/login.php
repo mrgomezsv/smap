@@ -4,7 +4,7 @@ session_start();
 // Verificar si se han enviado datos de inicio de sesión
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Conexión a la base de datos
-    $mysqli = new mysqli("db", "root", "example", "sistema_administracion");
+    $mysqli = new mysqli("db", "root", "example", "system_administration_smap");
 
     // Verificar conexión
     if ($mysqli->connect_error) {
