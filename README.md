@@ -23,7 +23,7 @@ SMAP (Sistema de Manejo de Aplicaciones Móviles) es una plataforma desarrollada
 
 #### Ingresar a la DB
 
-    docker exec -it smap-admin-db-development mysql -uroot -pexample system_administration_smap
+    docker exec -it smap-db-1 mysql -uroot -pexample system_administration_smap
 
 
 
