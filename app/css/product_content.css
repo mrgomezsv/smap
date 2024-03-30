@@ -21,3 +21,34 @@
 .nav-button:hover {
     background-color: #ccc; /* Color de fondo de los botones al pasar el mouse */
 }
+
+.product-form-container {
+    text-align: center;
+}
+
+#product-form {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#product-form label,
+#product-form select,
+#product-form textarea,
+#product-form button,
+#product-form input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#preview-images img {
+    max-width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
