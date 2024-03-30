@@ -5,3 +5,6 @@ CREATE TABLE users (
     fullname VARCHAR(100) NOT NULL,
     role VARCHAR(50) NOT NULL
 );
+
+INSERT INTO users (username, password, fullname, role)
+VALUES ('mrgomez', 'contraseña_encriptada', 'Mario Roberto', 'dev');

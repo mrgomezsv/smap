@@ -31,43 +31,43 @@ if (!isset($_SESSION["username"])) {
                 <ul>
                     <div class="item-sidebar">
                         <li>
-                            <p class="section-title">Section 1</p>
-                            <a href="#" id="opcion1">Clientes</a>
+                            <p class="section-title">Section</p>
+                            <a href="#" id="opcion1">Productos</a>
                         </li>
                     </div>
                     <div class="item-sidebar">
                         <li>
-                            <p class="section-title">Section 1</p>
+                            <p class="section-title">Section</p>
                             <a href="#" id="opcion2">Envio de Notificaciones Push</a>
                         </li>
                     </div>
                     <div class="item-sidebar">
                         <li>
-                            <p class="section-title">Section 1</p>
-                            <a href="#" id="opcion3">Productos</a>
+                            <p class="section-title">Section</p>
+                            <a href="#" id="opcion3">Clientes</a>
                         </li>
                     </div>
                     <div class="item-sidebar">
                         <li>
-                            <p class="section-title">Section 1</p>
+                            <p class="section-title">Section</p>
                             <a href="#" id="opcion4">Servicios</a>
                         </li>
                     </div>
                     <div class="item-sidebar">
                         <li>
-                            <p class="section-title">Section 1</p>
+                            <p class="section-title">Section</p>
                             <a href="#" id="opcion5">Descargo de Responsabilidad</a>
                         </li>
                     </div>
                     <div class="item-sidebar">
                         <li>
-                            <p class="section-title">Section 1</p>
+                            <p class="section-title">Section</p>
                             <a href="#" id="opcion6">Anticipos</a>
                         </li>
                     </div>
                     <div class="item-sidebar">
                         <li>
-                            <p class="section-title">Section 1</p>
+                            <p class="section-title">Section</p>
                             <a href="#" id="opcion7">Ticket Master</a>
                         </li>
                     </div>

@@ -16,16 +16,32 @@ window.onclick = function(event) {
 }
 
 document.getElementById("opcion1").addEventListener("click", function() {
-    document.getElementById("contenido").innerHTML = "<h2>Contenido Opción 1</h2><p>Este es el contenido de la Opción 1.</p>";
+    fetch('productos_content.php') // Carga el contenido desde el archivo productos_content.php
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("contenido").innerHTML = data;
+    });
 });
 
+<!-- Dashboard.php -->
 document.getElementById("opcion2").addEventListener("click", function() {
-    document.getElementById("contenido").innerHTML = "<h2>Contenido Opción 2</h2><p>Este es el contenido de la Opción 2.</p>";
+    fetch('notificaciones_push.php') // Carga el formulario desde el archivo envio_notificaciones.php
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("contenido").innerHTML = data;
+    });
 });
 
+
+<!-- Dashboard.php -->
 document.getElementById("opcion3").addEventListener("click", function() {
-    document.getElementById("contenido").innerHTML = "<h2>Contenido Opción 3</h2><p>Este es el contenido de la Opción 3.</p>";
+    fetch('clientes.php') // Carga el contenido desde el archivo clientes.php
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("contenido").innerHTML = data;
+    });
 });
+
 
 document.getElementById("opcion4").addEventListener("click", function() {
     document.getElementById("contenido").innerHTML = "<h2>Contenido Opción 4</h2><p>Este es el contenido de la Opción 4.</p>";
