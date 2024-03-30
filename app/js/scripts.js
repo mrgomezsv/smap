@@ -48,7 +48,11 @@ document.getElementById("opcion4").addEventListener("click", function() {
 });
 
 document.getElementById("opcion5").addEventListener("click", function() {
-    document.getElementById("contenido").innerHTML = "<h2>Contenido Opción 5</h2><p>Este es el contenido de la Opción 5.</p>";
+    fetch('descargo_responsabilidad.php')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("contenido").innerHTML = data;
+    });
 });
 
 document.getElementById("opcion6").addEventListener("click", function() {

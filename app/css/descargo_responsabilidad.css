@@ -1,0 +1,49 @@
+/* Estilos para la tabla de clientes */
+
+.client-table {
+    margin-top: 20px;
+}
+
+.client-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.client-table th,
+.client-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.client-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.client-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.product-nav {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: #f2f2f2; /* Color de fondo del navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+    padding: 10px;
+    margin-bottom: 20px; /* Espacio entre el navbar y el contenido siguiente */
+}
+
+.nav-button {
+    background-color: #e0e0e0; /* Color de fondo de los botones */
+    border: none;
+    color: #333; /* Color del texto de los botones */
+    padding: 10px 20px;
+    margin-right: 10px; /* Espacio entre los botones */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.nav-button:hover {
+    background-color: #ccc; /* Color de fondo de los botones al pasar el mouse */
+}
