@@ -11,8 +11,8 @@
     <h2>Productos</h2>
     <p>Aquí se administrarán, publicarán y cargarán los productos.</p>
     <nav class="product-nav">
-        <button class="nav-button">Cargar Producto</button>
-        <button class="nav-button">Crear Categoria</button>
+        <button class="nav-button">Opcion 1</button>
+        <button class="nav-button">Opcion 2</button>
         <button class="nav-button">Opción 3</button>
         <button class="nav-button">Opción 4</button>
     </nav>

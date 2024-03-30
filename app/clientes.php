@@ -9,6 +9,7 @@
 </head>
 <body>
     <h2>Clientes</h2>
+    <p>Aquí se mostrara toda la informacion relacionada con los clientes de la app.</p>
     <nav class="product-nav">
         <button class="nav-button">Opcion 1</button>
         <button class="nav-button">Opcion 2</button>
@@ -22,6 +23,7 @@
                     <th>ID</th>
                     <th>Nombre</th>
                     <th>Teléfono</th>
+                    <th>Proveedor de Acceso</th>
                     <th>Email</th>
                     <th>Dirección</th>
                     <th>Otros</th>
@@ -33,6 +35,7 @@
                     <td>1</td>
                     <td>Cliente 1</td>
                     <td>123456789</td>
+                    <td>Google</td>
                     <td>cliente1@example.com</td>
                     <td>Dirección 1</td>
                     <td>Otros detalles 1</td>
@@ -41,6 +44,7 @@
                     <td>2</td>
                     <td>Cliente 2</td>
                     <td>987654321</td>
+                    <td>Apple</td>
                     <td>cliente2@example.com</td>
                     <td>Dirección 2</td>
                     <td>Otros detalles 2</td>
@@ -49,6 +53,7 @@
                     <td>3</td>
                     <td>Cliente 3</td>
                     <td>987654321</td>
+                    <td>Facebook</td>
                     <td>cliente2@example.com</td>
                     <td>Dirección 3</td>
                     <td>Otros detalles 3</td>
@@ -57,6 +62,7 @@
                     <td>2</td>
                     <td>Cliente 4</td>
                     <td>987654321</td>
+                    <td>Apple</td>
                     <td>cliente2@example.com</td>
                     <td>Dirección 4</td>
                     <td>Otros detalles 4</td>
