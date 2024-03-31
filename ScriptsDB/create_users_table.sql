@@ -7,4 +7,4 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (username, password, fullname, role)
-VALUES ('mrgomez', 'contraseña_encriptada', 'Mario Roberto', 'dev');
+VALUES ('mrgomez', 'Karin2100', 'Mario Roberto', 'dev');
